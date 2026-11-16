@@ -1,111 +1,122 @@
-<!--
-  HOW TO USE THIS FILE
-  - Anything inside these comment markers is invisible on your profile, so the tips can stay or go.
-  - Replace every [BRACKETED] placeholder, and delete any line you can't fill in yet.
-  - Keep it short: visitors spend roughly 10 seconds here. Lead with who you are and your best work.
--->
+<div align="center">
 
-# Hi, I'm Xiang Yang (axewhy) 👋
+# Lau Xiang Yang
 
-I'm a Computer Science student at **DigiPen Institute of Technology Singapore** who likes turning
-real-world images into useful data. Most of my work sits where **computer vision**, **machine
-learning** and **simulation** meet: training detectors on data I collect myself, and building
-software that helps people train for autonomous vehicles.
+**Computer Science @ DigiPen Institute of Technology Singapore**<br>
+Computer Vision &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Simulation
 
-## 🧭 About me
+[![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
+![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
 
-- 🎓 Year 3 **Computer Science** at **DigiPen Singapore**, graduating **2028**
-- 🔭 Currently building **Formula 9**, an autonomous-shuttle fleet training simulator, with a team of 8
-- 🧪 Interned at the **National Environment Agency (NEA)**, **National Park Board (NParks)**
-- 🔌 Before DigiPen: **Diploma in Electronic & Computer Engineering**, **Ngee Ann Polytechnic**
+</div>
 
-## 🛠️ Tech I use
+---
 
-<!--
-  Badges come from https://shields.io (logo names: https://simpleicons.org).
-  Only keep tools you could talk about in an interview. The second row is from Formula 9:
-  delete any you didn't personally work with.
--->
+I turn real-world images into useful data. My work sits where **computer vision**, **machine learning**
+and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
+engineer simulation software that prepares people to operate autonomous vehicles.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+## At a glance
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+- 🔭 **Now:** leading development of **Formula 9**, an autonomous-shuttle fleet training simulator, in a team of 8
+- 🎓 **Education:** B.S. Computer Science in Interactive Media and Game Development, **DigiPen Singapore** (Class of 2028)
+- 🔌 **Previously:** Diploma in Electronic & Computer Engineering, **Ngee Ann Polytechnic**
+- 💼 **Experience:** computer-vision internships at the **National Environment Agency** and the **National Parks Board**
 
-## 🚀 Featured projects
+## Featured work
 
-<!--
-  Both repositories are PRIVATE right now, so they have no links: a visitor clicking one would get a 404.
-  Once a repo is public (see the notes in our chat first), turn its title into a link, e.g.
-  ### [🏢 HDB Feature Detection](https://github.com/axewhy-xy/NEA_Internship_April_2026)
-  A screenshot or GIF under each title helps a lot: store it in the project's repo and link it here.
--->
+### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 
-### 🚐 Formula 9 · Autonomous shuttle fleet training simulator (team project, in progress)
+<sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
 
-A training simulator where operators manage a fleet of autonomous shuttles on real Singapore streets,
-handling incidents, detours and charging. A Unity client talks to a Python/FastAPI backend that runs
-the simulation, and the whole thing ships as a one-click Windows build.
+A training simulator in which operators run a fleet of autonomous shuttles on real Singapore streets,
+handling incidents, detours and charging in real time. A **Unity** client talks to a **Python / FastAPI**
+simulation backend through versioned, schema-validated contracts, and the whole system ships as a
+one-click Windows build.
 
-- **Backend:** Designed the backend architecture, wrote the simulation loop and vehicle physics, and implemented
-  the API for the Unity client to talk to.
-- **Unity Client:** Built the 3D world, vehicle models, and UI, and implemented the client-side logic for
-  incidents, detours and charging.
-- **Data Pipeline:** Wrote scripts to convert OpenStreetMap data into Unity terrain, and to generate
-  realistic traffic and pedestrian patterns for the simulation.
-- **Testing & Deployment:** Set up automated testing and continuous integration, and created a one-click
-  Windows build for easy deployment.
+- **Leadership:** own the repository and its architecture; authored 50+ commits and reviewed and merged
+  35+ pull requests from teammates
+- **Traffic simulation:** built backend-driven city traffic in which shuttles and background vehicles obey
+  simulated traffic signals, with streamed playback and checkpoint-and-recover for live sessions
+- **Real-world road data:** introduced an **OpenStreetMap**-backed road network with turn validation and
+  waypoint planning, and a reproducible importer that populates traffic from **LTA** data
+- **Training scenarios:** designed randomised incident placement, per-shuttle incident decisions, and an
+  interactive route-planning and live-detour workflow
+- **3D city:** rendered the road network, cut building meshes around transit routes, and smoothed
+  shuttle motion between server snapshots
+- **Shipping:** wrote the build pipeline that bundles the Unity player with a portable Python backend,
+  including lifecycle management so every open client shares one backend that shuts down cleanly
 
-### 🏢 HDB Feature Detection for Wolbachia Release Planning · NEA internship (2026)
+**Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
-An end-to-end computer-vision pipeline that finds building features linked to mosquito activity in
-images of Singapore's HDB blocks, to help plan *Wolbachia-Aedes* mosquito releases.
+---
 
-- Built the dataset from scratch: scripts that turn postal codes into coordinates (OneMap API) and pull
-  satellite tiles and Street View images (Google Maps APIs), with automatic train/valid/test splits
-- Wrote augmentation and leak-checking tools so near-identical images never land in both training and test sets
-- Fine-tuned a **Faster R-CNN (ResNet-50)** detector in **PyTorch**, with per-class metrics, early stopping,
-  LR scheduling and crash-safe checkpointing
-- Ran the model on unlabelled images and exported predictions as COCO JSON / CSV for the research team
+### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
 
-`Python` `PyTorch` `Faster R-CNN` `Google Maps API` `COCO`
+<sub><b>National Environment Agency (NEA) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; Apr – Aug 2026</b></sub>
 
+An end-to-end computer-vision pipeline that detects building features linked to mosquito breeding in
+imagery of Singapore's HDB blocks, helping researchers plan *Wolbachia-Aedes* mosquito releases.
 
-`C#` `Unity` `Python` `FastAPI` `MongoDB`
+<table>
+  <tr>
+    <td align="center"><b>~13.7k</b><br><sub>labelled images</sub></td>
+    <td align="center"><b>~80k</b><br><sub>bounding boxes</sub></td>
+    <td align="center"><b>5</b><br><sub>feature classes</sub></td>
+    <td align="center"><b>2</b><br><sub>imagery sources</sub></td>
+  </tr>
+</table>
 
-### 🎣 Illegal Fishing Detection for NParks · National Parks Board (2020–21)
+- **Dataset from scratch:** geocoded postal codes with the **OneMap API**, then pulled satellite tiles and
+  Street View images through the **Google Maps APIs** with reproducible train / validation / test splits
+- **Data integrity:** wrote augmentation and leak-checking tools so near-identical images never appear in
+  both training and test sets, plus scripts that keep dataset metadata in sync
+- **Modelling:** fine-tuned a **Faster R-CNN (ResNet-50 FPN v2)** detector in **PyTorch** with mixed-precision
+  training, per-class precision / recall / F1 / mAP, early stopping, LR scheduling and crash-safe checkpointing
+- **Delivery:** ran inference on unlabelled imagery and exported predictions as COCO JSON and CSV for the
+  research team
 
-A real-time detector that spots fishing in park waters, built for a National Parks Board patrol robot so
-staff wouldn't have to watch hundreds of parks by hand. No fishing dataset existed, so I built one.
+Detected classes: solar panels, water tanks, laundry drying fixtures, and concrete and frame air-conditioner mounts.
 
-- Wrote a **Selenium** web scraper to collect images, cleaned ~600 scraped images down to ~400 usable
-  ones, then labelled, augmented and converted them to YOLO format
-- Trained and compared two detectors: a **Keras YOLOv3** baseline (~2 FPS) and a tuned **YOLOv5**
-  model that ran at **~30–40 FPS** on video with **mAP@0.5 above 0.8**
-- Ran hyperparameter-tuning and focal-loss experiments, and tested on my own recorded footage
-  as a real-world test set
+**Stack:** `Python` `PyTorch` `torchvision` `Faster R-CNN` `Google Maps API` `OneMap API` `Label Studio` `COCO`
 
-`Python` `YOLOv5` `Keras` `PyTorch` `Selenium`
+---
 
-<!--
-  OPTIONAL: past projects that aren't on GitHub. A one-line description is still worth showing,
-  linked to a video, itch.io page or write-up if you have one. Delete this section if you have nothing to link.
+### 🎣 Illegal Fishing Detection
 
-### 🗂️ Other things I've built
+<sub><b>National Parks Board (NParks) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; 2020 – 2021</b></sub>
 
-- **[PROJECT NAME]**: [ONE LINE: what it is + the tech]. [Video](https://LINK)
-- **[PROJECT NAME]**: [ONE LINE]. [Write-up](https://LINK)
--->
+A real-time detector that spots illegal fishing in park waters, built for an NParks patrol robot so that
+staff no longer need to monitor hundreds of parks by hand. No suitable dataset existed, so I built one.
 
-## 📫 Get in touch
+<table>
+  <tr>
+    <td align="center"><b>30–40 FPS</b><br><sub>real-time on video</sub></td>
+    <td align="center"><b>&gt; 0.8</b><br><sub>mAP@0.5</sub></td>
+    <td align="center"><b>15–20×</b><br><sub>faster than baseline</sub></td>
+  </tr>
+</table>
 
-<!-- Only add contact details you're happy for anyone on the internet to see. -->
+- **Data collection:** wrote a **Selenium** scraper, curated ~600 scraped images down to ~400 usable ones,
+  then labelled, augmented and converted them to YOLO format
+- **Model comparison:** benchmarked a **Keras YOLOv3** baseline (~2 FPS) against a tuned **YOLOv5** model
+  that reached 30–40 FPS with mAP@0.5 above 0.8
+- **Experimentation:** ran hyperparameter-tuning and focal-loss experiments, and validated on
+  self-recorded footage as a real-world test set
 
-- ✉️ Email: xiangyang.1a2@gmail.com
+**Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
+
+## Tech stack
+
+| Area | Tools |
+| :--- | :--- |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
+| **ML & Computer Vision** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white) |
+| **Simulation & Backend** | ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
+| **Data & Geospatial** | ![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
+| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+
+## Get in touch
+
+I'm always happy to talk about computer vision, simulation, or internship and graduate opportunities.
+Reach me at **[xiangyang.1a2@gmail.com](mailto:xiangyang.1a2@gmail.com)**.
