@@ -1,9 +1,6 @@
 <div align="center">
 
-# Lau Xiang Yang
-
-**Computer Science @ DigiPen Institute of Technology Singapore**<br>
-Computer Vision &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Simulation
+<img src="assets/banner.svg" width="100%" alt="Lau Xiang Yang: Software Engineer · Computer Vision · Machine Learning · Simulation. Computer Science @ DigiPen Institute of Technology Singapore" />
 
 [![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
 ![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
