@@ -14,9 +14,9 @@ Computer Vision &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Simulation
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake.svg" />
-    <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph.svg" />
+    <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph.svg" />
   </picture>
 </p>
 
