@@ -3,19 +3,20 @@
 <img src="assets/banner.svg" width="100%" alt="Lau Xiang Yang: Software Engineer · Computer Vision · Machine Learning · Simulation. Computer Science @ DigiPen Institute of Technology Singapore" />
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision+%26+Machine+Learning;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
+</p>
+
+[![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
+![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
+
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph.svg" />
     <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/pacman-contribution-graph.svg" />
   </picture>
 </p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision+%26+Machine+Learning;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
-</p>
-
-[![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
-![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
 
 </div>
 
