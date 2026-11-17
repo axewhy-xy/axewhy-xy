@@ -118,6 +118,8 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
 
 **Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
 
+---
+
 ### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 
 <sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
