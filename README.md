@@ -63,32 +63,6 @@ engineer simulation software that prepares people to operate autonomous vehicles
 
 ## Featured work
 
-### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
-
-<sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
-
-A training simulator in which operators run a fleet of autonomous shuttles on real Singapore streets,
-handling incidents, detours and charging in real time. A **Unity** client talks to a **Python / FastAPI**
-simulation backend through versioned, schema-validated contracts, and the whole system ships as a
-one-click Windows build.
-
-- **Leadership:** own the repository and its architecture; authored 50+ commits and reviewed and merged
-  35+ pull requests from teammates
-- **Traffic simulation:** built backend-driven city traffic in which shuttles and background vehicles obey
-  simulated traffic signals, with streamed playback and checkpoint-and-recover for live sessions
-- **Real-world road data:** introduced an **OpenStreetMap**-backed road network with turn validation and
-  waypoint planning, and a reproducible importer that populates traffic from **LTA** data
-- **Training scenarios:** designed randomised incident placement, per-shuttle incident decisions, and an
-  interactive route-planning and live-detour workflow
-- **3D city:** rendered the road network, cut building meshes around transit routes, and smoothed
-  shuttle motion between server snapshots
-- **Shipping:** wrote the build pipeline that bundles the Unity player with a portable Python backend,
-  including lifecycle management so every open client shares one backend that shuts down cleanly
-
-**Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
-
----
-
 ### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
 
 <sub><b>National Environment Agency (NEA) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; Apr – Aug 2026</b></sub>
