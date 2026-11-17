@@ -9,7 +9,7 @@ Computer Vision &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Simulation
 ![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision%2C+Machine+Learning+%26+Simulation;Formula+9%3A+Autonomous+Shuttle+Fleet+Training+Simulator;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision+%26+Machine+Learning;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
 </p>
 
 <p align="center">
