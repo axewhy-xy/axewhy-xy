@@ -29,7 +29,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           games: pacman
 
-      - name: Add defeat and victory screens
+      - name: Add start, defeat and victory screens
         run: python3 scripts/pacman_screens.py dist/*.svg
 
       - name: Push SVGs to the output branch
