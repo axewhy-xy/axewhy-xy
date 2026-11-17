@@ -8,17 +8,43 @@ Computer Vision &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Simulation
 [![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
 ![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision%2C+Machine+Learning+%26+Simulation;Formula+9%3A+Autonomous+Shuttle+Fleet+Training+Simulator;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning & Simulation · Formula 9 · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
+</p>
+
 </div>
 
 ---
 
+```
+class Lau Xiang Yang {
+public:
+    static const std::string role           = "Software Engineer";
+    static const std::string builds         = "Computer Vision, Machine Learning & Simulation";
+
+    std::vector<std::string> projects = {
+        "Formula 9: Autonomous Shuttle Fleet Training Simulator",
+        "HDB Feature Detection for Wolbachia Release Planning",
+        "Illegal Fishing Detection"
+    };
+
+    std::vector<std::string> interests = {
+        "LLMs",
+        "Computer Vision",
+        "Machine Learning"
+    };
+
+private:
+    std::vector<std::string> hobbies = {
+        "Traveling",
+        "Reading"
+    };
+}
+```
+
 I turn real-world images into useful data. My work sits where **computer vision**, **machine learning**
 and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
 engineer simulation software that prepares people to operate autonomous vehicles.
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision%2C+Machine+Learning+%26+Simulation;Formula+9%3A+Autonomous+Shuttle+Fleet+Training+Simulator;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning & Simulation · Formula 9 · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
-</p>
 
 ## At a glance
 
