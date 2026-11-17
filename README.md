@@ -146,6 +146,16 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
 | **Data & Geospatial** | ![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
 | **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
+## Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake.svg" />
+    <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/axewhy-xy/axewhy-xy/output/github-snake.svg" />
+  </picture>
+</p>
+
 ## Get in touch
 
 I'm always happy to talk about computer vision, simulation, or internship and graduate opportunities.
