@@ -45,7 +45,7 @@ private:
         "Traveling",
         "Reading"
     };
-}
+};
 ```
 
 I turn real-world images into useful data. My work sits where **computer vision**, **machine learning**
