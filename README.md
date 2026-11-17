@@ -25,8 +25,8 @@
 ```
 class Lau Xiang Yang {
 public:
-    static const std::string role         = "Software Engineer";
-    static const std::string builds       = "Computer Vision and Machine Learning";
+    std::string role         = "Software Engineer";
+    std::string builds       = "Computer Vision and Machine Learning";
 
     std::vector<std::string> projects = {
         "Formula 9: Autonomous Shuttle Fleet Training Simulator",
