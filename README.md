@@ -90,7 +90,7 @@ Detected classes: solar panels, water tanks, laundry drying fixtures, and concre
 
 **Stack:** `Python` `PyTorch` `torchvision` `Faster R-CNN` `Google Maps API` `OneMap API` `Label Studio` `COCO`
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🎣 Illegal Fishing Detection
 
@@ -116,7 +116,7 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
 
 **Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 
