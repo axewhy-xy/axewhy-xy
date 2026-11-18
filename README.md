@@ -20,7 +20,8 @@
 
 </div>
 
-### **About me**
+<h3><img src="assets/headers/about-me.svg" height="48" alt="About me" /></h3>
+
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ```
@@ -53,7 +54,7 @@ I turn real-world images into useful data. My work sits where **computer vision*
 and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
 engineer simulation software that prepares people to operate autonomous vehicles.
 
-### **At a glance**
+<h3><img src="assets/headers/at-a-glance.svg" height="48" alt="At a glance" /></h3>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -62,7 +63,7 @@ engineer simulation software that prepares people to operate autonomous vehicles
 - 🔌 **Previously:** Diploma in Electronic & Computer Engineering, **Ngee Ann Polytechnic**
 - 💼 **Experience:** computer-vision internships at the **National Environment Agency** and the **National Parks Board**
 
-### **Featured work**
+<h3><img src="assets/headers/featured-work.svg" height="48" alt="Featured work" /></h3>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -149,7 +150,7 @@ one-click Windows build.
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### **Tech stack**
+<h3><img src="assets/headers/tech-stack.svg" height="48" alt="Tech stack" /></h3>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -161,7 +162,7 @@ one-click Windows build.
 | **Data & Geospatial** | ![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
 | **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
-### **Get in touch**
+<h3><img src="assets/headers/get-in-touch.svg" height="48" alt="Get in touch" /></h3>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
