@@ -159,7 +159,9 @@ one-click Windows build.
 | **Data & Geospatial** | ![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
 | **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
-## Get in touch
+### Get in touch
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 I'm always happy to talk about computer vision, simulation, or internship and graduate opportunities.
 Reach me at **[xiangyang.1a2@gmail.com](mailto:xiangyang.1a2@gmail.com)**.
