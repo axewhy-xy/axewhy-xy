@@ -20,7 +20,7 @@
 
 </div>
 
-### About me
+### **About me**
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ```
@@ -53,7 +53,7 @@ I turn real-world images into useful data. My work sits where **computer vision*
 and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
 engineer simulation software that prepares people to operate autonomous vehicles.
 
-### At a glance
+### **At a glance**
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -62,11 +62,11 @@ engineer simulation software that prepares people to operate autonomous vehicles
 - 🔌 **Previously:** Diploma in Electronic & Computer Engineering, **Ngee Ann Polytechnic**
 - 💼 **Experience:** computer-vision internships at the **National Environment Agency** and the **National Parks Board**
 
-### Featured work
+### **Featured work**
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
+#### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
 
 <sub><b>National Environment Agency (NEA) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; Apr – Aug 2026</b></sub>
 
@@ -95,9 +95,9 @@ Detected classes: solar panels, water tanks, laundry drying fixtures, and concre
 
 **Stack:** `Python` `PyTorch` `torchvision` `Faster R-CNN` `Google Maps API` `OneMap API` `Label Studio` `COCO`
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### 🎣 Illegal Fishing Detection
+#### 🎣 Illegal Fishing Detection
 
 <sub><b>National Parks Board (NParks) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; 2020 – 2021</b></sub>
 
@@ -121,8 +121,9 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
 
 **Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
 
----
-### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+#### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 
 <sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
 
@@ -146,6 +147,7 @@ one-click Windows build.
 
 **Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### **Tech stack**
 
@@ -159,7 +161,7 @@ one-click Windows build.
 | **Data & Geospatial** | ![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) |
 | **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
-### Get in touch
+### **Get in touch**
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
