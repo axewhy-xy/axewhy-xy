@@ -2,10 +2,6 @@
 
 <img src="assets/banner.svg" width="100%" alt="Lau Xiang Yang: Software Engineer · Computer Vision · Machine Learning · Simulation. Computer Science @ DigiPen Institute of Technology Singapore" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=50&lines=Software+Engineer;Building+Computer+Vision+%26+Machine+Learning;HDB+Feature+Detection+for+Wolbachia+Release+Planning;Illegal+Fishing+Detection;Interested+in+LLMs%2C+Computer+Vision+%26+Machine+Learning;Off+the+clock%3A+Traveling+%26+Reading" alt="Software Engineer · Computer Vision, Machine Learning · HDB Feature Detection · Illegal Fishing Detection · LLMs · Traveling & Reading" />
-</p>
-
 [![Email](https://img.shields.io/badge/Email-xiangyang.1a2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xiangyang.1a2@gmail.com)
 ![Location](https://img.shields.io/badge/Based_in-Singapore-EF3340?style=for-the-badge)
 
@@ -67,7 +63,33 @@ engineer simulation software that prepares people to operate autonomous vehicles
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-#### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
+### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
+
+<sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
+
+A training simulator in which operators run a fleet of autonomous shuttles on real Singapore streets,
+handling incidents, detours and charging in real time. A **Unity** client talks to a **Python / FastAPI**
+simulation backend through versioned, schema-validated contracts, and the whole system ships as a
+one-click Windows build.
+
+- **Leadership:** own the repository and its architecture; authored 50+ commits and reviewed and merged
+  35+ pull requests from teammates
+- **Traffic simulation:** built backend-driven city traffic in which shuttles and background vehicles obey
+  simulated traffic signals, with streamed playback and checkpoint-and-recover for live sessions
+- **Real-world road data:** introduced an **OpenStreetMap**-backed road network with turn validation and
+  waypoint planning, and a reproducible importer that populates traffic from **LTA** data
+- **Training scenarios:** designed randomised incident placement, per-shuttle incident decisions, and an
+  interactive route-planning and live-detour workflow
+- **3D city:** rendered the road network, cut building meshes around transit routes, and smoothed
+  shuttle motion between server snapshots
+- **Shipping:** wrote the build pipeline that bundles the Unity player with a portable Python backend,
+  including lifecycle management so every open client shares one backend that shuts down cleanly
+
+**Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
 
 <sub><b>National Environment Agency (NEA) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; Apr – Aug 2026</b></sub>
 
@@ -98,7 +120,7 @@ Detected classes: solar panels, water tanks, laundry drying fixtures, and concre
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-#### 🎣 Illegal Fishing Detection
+### 🎣 Illegal Fishing Detection
 
 <sub><b>National Parks Board (NParks) &nbsp;·&nbsp; Internship &nbsp;·&nbsp; 2020 – 2021</b></sub>
 
@@ -121,32 +143,6 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
   self-recorded footage as a real-world test set
 
 **Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
-#### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
-
-<sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
-
-A training simulator in which operators run a fleet of autonomous shuttles on real Singapore streets,
-handling incidents, detours and charging in real time. A **Unity** client talks to a **Python / FastAPI**
-simulation backend through versioned, schema-validated contracts, and the whole system ships as a
-one-click Windows build.
-
-- **Leadership:** own the repository and its architecture; authored 50+ commits and reviewed and merged
-  35+ pull requests from teammates
-- **Traffic simulation:** built backend-driven city traffic in which shuttles and background vehicles obey
-  simulated traffic signals, with streamed playback and checkpoint-and-recover for live sessions
-- **Real-world road data:** introduced an **OpenStreetMap**-backed road network with turn validation and
-  waypoint planning, and a reproducible importer that populates traffic from **LTA** data
-- **Training scenarios:** designed randomised incident placement, per-shuttle incident decisions, and an
-  interactive route-planning and live-detour workflow
-- **3D city:** rendered the road network, cut building meshes around transit routes, and smoothed
-  shuttle motion between server snapshots
-- **Shipping:** wrote the build pipeline that bundles the Unity player with a portable Python backend,
-  including lifecycle management so every open client shares one backend that shuts down cleanly
-
-**Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
