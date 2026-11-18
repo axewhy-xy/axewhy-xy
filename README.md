@@ -19,8 +19,9 @@
 </p>
 
 </div>
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## About me
+### About me
 
 ```
 class Lau Xiang Yang {
@@ -52,14 +53,18 @@ I turn real-world images into useful data. My work sits where **computer vision*
 and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
 engineer simulation software that prepares people to operate autonomous vehicles.
 
-## At a glance
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+### At a glance
 
 - 🔭 **Now:** leading development of **Formula 9**, an autonomous-shuttle fleet training simulator, in a team of 8
 - 🎓 **Education:** B.S. Computer Science in Interactive Media and Game Development, **DigiPen Singapore** (Class of 2028)
 - 🔌 **Previously:** Diploma in Electronic & Computer Engineering, **Ngee Ann Polytechnic**
 - 💼 **Experience:** computer-vision internships at the **National Environment Agency** and the **National Parks Board**
 
-## Featured work
+### Featured work
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🏢 HDB Feature Detection for *Wolbachia* Release Planning
 
@@ -142,8 +147,9 @@ one-click Windows build.
 
 **Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## Tech stack
+### Tech stack
 
 | Area | Tools |
 | :--- | :--- |
