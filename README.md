@@ -146,9 +146,8 @@ one-click Windows build.
 
 **Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
----
 
-### Tech stack
+### **Tech stack**
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
