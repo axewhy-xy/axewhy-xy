@@ -19,9 +19,9 @@
 </p>
 
 </div>
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### About me
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ```
 class Lau Xiang Yang {
@@ -53,9 +53,9 @@ I turn real-world images into useful data. My work sits where **computer vision*
 and **simulation** meet: I build detection datasets from scratch, train object detectors on them, and
 engineer simulation software that prepares people to operate autonomous vehicles.
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
 ### At a glance
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 - 🔭 **Now:** leading development of **Formula 9**, an autonomous-shuttle fleet training simulator, in a team of 8
 - 🎓 **Education:** B.S. Computer Science in Interactive Media and Game Development, **DigiPen Singapore** (Class of 2028)
@@ -95,7 +95,7 @@ Detected classes: solar panels, water tanks, laundry drying fixtures, and concre
 
 **Stack:** `Python` `PyTorch` `torchvision` `Faster R-CNN` `Google Maps API` `OneMap API` `Label Studio` `COCO`
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+---
 
 ### 🎣 Illegal Fishing Detection
 
@@ -121,8 +121,7 @@ staff no longer need to monitor hundreds of parks by hand. No suitable dataset e
 
 **Stack:** `Python` `PyTorch` `YOLOv5` `Keras` `Selenium`
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
+---
 ### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 
 <sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
@@ -147,9 +146,11 @@ one-click Windows build.
 
 **Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+---
 
 ### Tech stack
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 | Area | Tools |
 | :--- | :--- |
