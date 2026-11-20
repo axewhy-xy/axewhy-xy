@@ -55,6 +55,7 @@ engineer simulation software that prepares people to operate autonomous vehicles
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 - 🔭 **Now:** leading development of **Formula 9**, an autonomous-shuttle fleet training simulator, in a team of 8
+- 🤖 **Next:** incoming **Robotics Perception Intern** at **Changi Airport Group**'s Robotics Lab (from May 2027), working on computer vision and ML for airport service robots
 - 🎓 **Education:** B.S. Computer Science in Interactive Media and Game Development, **DigiPen Singapore** (Class of 2028)
 - 🔌 **Previously:** Diploma in Electronic & Computer Engineering, **Ngee Ann Polytechnic**
 - 💼 **Experience:** computer-vision internships at the **National Environment Agency** and the **National Parks Board**
