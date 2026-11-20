@@ -68,24 +68,41 @@ engineer simulation software that prepares people to operate autonomous vehicles
 <sub><b>Team project (8 developers) &nbsp;·&nbsp; Technical Lead &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; In progress</b></sub>
 
 A training simulator in which operators run a fleet of autonomous shuttles on real Singapore streets,
-handling incidents, detours and charging in real time. A **Unity** client talks to a **Python / FastAPI**
-simulation backend through versioned, schema-validated contracts, and the whole system ships as a
-one-click Windows build.
+handling incidents, detours and charging in real time. A **Unity** client talks to a multi-core
+**Python / FastAPI** simulation backend through versioned, schema-validated contracts, and the whole
+system ships as a one-click Windows build.
 
-- **Leadership:** own the repository and its architecture; authored 50+ commits and reviewed and merged
-  35+ pull requests from teammates
+<table>
+  <tr>
+    <td align="center"><b>60+</b><br><sub>commits authored</sub></td>
+    <td align="center"><b>20+</b><br><sub>teammate PRs reviewed &amp; merged</sub></td>
+    <td align="center"><b>2 → 8</b><br><sub>real-time sessions with traffic</sub></td>
+  </tr>
+</table>
+
+- **Leadership:** own the repository and its architecture; authored 60+ commits and 20 pull requests, and
+  reviewed and merged 20+ pull requests from teammates
+- **Multi-core backend:** moved live sessions into supervised worker processes behind a single-writer
+  gateway, with load-based admission and crash failover; sessions with traffic that keep real time rose
+  from **2 to 8**, measured with a scaling benchmark I wrote
+- **Native traffic engine:** ported the traffic simulation to a **C++** module (via **nanobind**) with an
+  automatic Python fallback, held step-for-step identical by parity tests that run on both engines
+- **Live streaming:** replaced polling with schema-validated **WebSocket** streams for snapshots and
+  traffic, with heartbeats, clear close reasons, and automatic fallback to HTTP polling and reconnect
 - **Traffic simulation:** built backend-driven city traffic in which shuttles and background vehicles obey
-  simulated traffic signals, with streamed playback and checkpoint-and-recover for live sessions
-- **Real-world road data:** introduced an **OpenStreetMap**-backed road network with turn validation and
-  waypoint planning, and a reproducible importer that populates traffic from **LTA** data
-- **Training scenarios:** designed randomised incident placement, per-shuttle incident decisions, and an
-  interactive route-planning and live-detour workflow
-- **3D city:** rendered the road network, cut building meshes around transit routes, and smoothed
-  shuttle motion between server snapshots
-- **Shipping:** wrote the build pipeline that bundles the Unity player with a portable Python backend,
-  including lifecycle management so every open client shares one backend that shuts down cleanly
+  simulated signals, and through which breakdowns, collisions, closures and signal faults play out, with
+  checkpoint-and-recover for live sessions
+- **Incident training:** designed world events that track which shuttles each incident affects,
+  independent per-shuttle decisions (detour, hold, escalate), and the decision cards, notifications and
+  live-detour route planner that drive them
+- **Real-world city data:** introduced an **OpenStreetMap**-backed road network and an **LTA**-sourced
+  traffic importer, and am extending it with generated sidewalks, kerb ramps and a pedestrian walk
+  network whose crossings follow the traffic signals
+- **3D city and shipping:** rendered roads, live incidents and smoothed shuttle motion in the 3D city, and
+  wrote the build that bundles the Unity player with a portable Python backend that every open client
+  shares and that shuts down cleanly
 
-**Stack:** `C#` `Unity` `Python` `FastAPI` `MongoDB` `SQLite` `JSON Schema` `OpenStreetMap`
+**Stack:** `C#` `Unity` `Python` `FastAPI` `C++` `nanobind` `WebSockets` `SQLite` `MongoDB` `JSON Schema` `OpenStreetMap`
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
